@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+    <title>Aanmelden</title>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Pagina voor stages en projecten, voor bedrijven en studenten" />
+    <meta name="author" content="Tasha de Meza" />
+    <meta name="keywords" content="aanmelden, stage, bedrijven, projecten, studenten" />
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  
+    <aside>
+          <img src="afbeeldingen/cmd_icon_letter_c.png" alt="">
+          <img src="afbeeldingen/cmd_icon_letter_m.png" alt="">
+          <img src="afbeeldingen/cmd_icon_letter_d.png" alt="">
+      </aside>
+    
+    <header>
+      <h1>
+          CMD Amsterdam - Intranet
+      </h1>
+      
+      <p>
+          Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.
+      </p>
+
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Opleiding</a></li>
+              <li><a href="#">Onderwijsprogramma</a></li>
+              <li><a href="#">Organisatie</a></li>
+              <li><a href="#">Stages en projecten</a></li>
+          </ul>
+      </nav>
+
+      <form>
+          <input type="text" placeholder="zoek en klik">
+      </form>
+   
+      <a href="#">profielpagina Elena Harris</a>
+
+  </header>
+      
+      <article>
+        
+        <header>
+          <h1>Aanmelden</h1>
+        </header>
+
+      <h2>CMD Amsterdam</h2>
+      <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+      Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook 
+      lopen de studenten stage, in het tweede en afstudeerjaar. 
+      </p>
+
+      <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad 
+      Amsterdam</em>
+      </p>
+
+      <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. 
+      Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. 
+      Voor vragen of opmerkingen kunt u <a href="contact.html">contact</a> met ons op.
+      </p>
+
+      <p><a href="http://example.com/file.pdf" data-kb="1337">A white paper</a></p>
+
+    </article>
+
+            <!--Contactgegevens-->
+
+      <form>
+        <fieldset>
+          <legend>Contactgegevens</legend>
+          
+          <label for="naam">Naam:</label>
+          <input type="text" id="naam" required />    
+
+          <label for="bedrijf">Bedrijf:</label>
+          <input type="text" id="bedrijf"/>
+
+          <label for="adres">Adres:</label>
+          <input type="text" id="adres"/>
+
+          <label for="postcode">Postcode:</label>
+          <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="postcode"/>
+
+          <label for="plaats">Plaats:</label>
+          <input type="text" id="plaats"/>
+
+          <label for="telefoon">Telefoon:</label>
+          <input type="tel"  id="telefoon"/>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />      
+
+        </fieldset>
+
+
+            <!--Aanmelden-->
+
+        <fieldset>
+          <legend>Aanmelden</legend>
+          <input type="radio" name="aanmelden" value="project">Voor een project
+          <input type="radio" name="aanmelden" value="bedrijf">Als stagebedrijf
+
+        </fieldset>
+
+
+
+              <!--Project-->
+
+        <fieldset>
+          <legend>Project</legend>
+
+          <label for="titel">Titel:</label>
+          <input type="text" id="titel"/> 
+
+          <label for="opdrachtomschrijving">Opdrachtomschrijving:</label>
+          <input type="text" id="opdrachtomschrijving"/>
+
+          <label for="doelgroepomschrijving">Doelgroepomschrijving:</label>
+          <input type="text" id="doelgroepomschrijving"/>
+
+          <label for="doelstelling">Doelstelling/intentie van het project:</label>
+          <input type="text" id="doelstelling"/>
+
+          <label for="looptijd">Looptijd:</label>
+          <input type="month" id="looptijd"/>
+
+          <label for="deadline">Deadline:</label>
+          <input type="month" id="deadline"/>
+
+              <p>Geschikt voor:</p>
+                <select>
+                    <option value="Maak een keuze">- Maak een keuze -</option>
+                    <option value="Eerstejaars studenten">Eerstejaars studenten</option>
+                    <option value="Tweedejaars studenten">Tweedejaars studenten</option>
+                    <option value="Derdejaars studenten">Derdejaars studenten</option>
+                    <option value="Afstudeer studenten">Afstudeer studenten</option>
+                    <option value="Onbekend">Onbekend</option>
+                </select>
+
+              <p>Opmerking:</p> 
+                <textarea id="opmerking" cols="40" rows="4" placeholder="Zet hier jou opmerking"> </textarea>
+
+          <input class="button" type="submit" value="verzenden">
+
+        </fieldset>
+
+
+              <!--Stage-->
+
+        <fieldset>
+          <legend>Stage</legend>
+
+            <label>Geschikt voor:</label>
+                    <select>
+                      <option value="Maak een keuze">- Maak een keuze -</option>
+                      <option value="Eerstejaars studenten">Eerstejaars studenten</option>
+                      <option value="Tweedejaars studenten">Tweedejaars studenten</option>
+                      <option value="Derdejaars studenten">Derdejaars studenten</option>
+                      <option value="Afstudeer studenten">Afstudeer studenten</option>
+                      <option value="Onbekend">Onbekend</option>
+                    </select>
+
+            <label>Hoelang is de stage:</label>
+                    <select>
+                      <option value="Maak een keuze">- Maak een keuze -</option>
+                      <option value="10 weken">10 weken</option>
+                      <option value="20 weken">20 weken</option>
+                    </select>
+
+          <label for="begindatum">Begin datum:</label>
+          <input type="month" id="begindatum"/>
+
+          <label for="werkzaamheden">Beschrijving werkzaamheden:</label>
+          <textarea name="werkzaamheden" id="werkzaamheden" cols="40" rows="4" placeholder="Vul hier jouw beschrijving in"></textarea>
+
+          <label for="stagebedrijf">Beschrijving stagebedrijf:</label>
+          <textarea name="stagebedrijf" id="stagebedrijf" cols="40" rows="4" placeholder="Vul hier jouw beschrijving in"></textarea>
+
+          <label for="bedrijfsnaam">Bedrijsnaam:</label>
+          <input type="text" id="bedrijfsnaam"/>    
+
+          <label for="adres">Adres:</label>
+          <input type="text" id="adres2"/>
+
+          <label for="postcode2">Postcode:</label>
+          <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="postcode2"/>
+
+          <label for="plaats">Plaats:</label>
+          <input type="text" id="plaats2"/>
+
+          <label for="sector">Sector:</label>
+          <input type="text" id="sector"/>
+
+          <label for="core-business">Core business:</label>
+          <textarea name="core-business" id="core-business" cols="40" rows="4"></textarea>
+
+          <label for="opmerking2">Opmerking:</label>
+          <textarea name="opmerking2" id="opmerking2" cols="40" rows="4"></textarea>
+
+          <input class="button" type="submit" value=" verzenden">
+
+        </fieldset>
+      </form>
+    
+
+
+      <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
